@@ -17,6 +17,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
+import org.deeponion.android.service.BlockchainService;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         if (!BlockchainService.isRunning) {
-            startForegroundService(new Intent(this, BlockchainService.class));
+            startForegroundService(new Intent(this, BlockchainServiceImpl.class));
         }
     }
 

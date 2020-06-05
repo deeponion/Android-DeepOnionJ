@@ -15,5 +15,5 @@
     <string name="channel_name">DeepOnion Service</string>
     <string name="channel_description">This notification indicates that the DeepOnion Service is running.</string>
     <string name="deeponion">Deep Onion</string>
-    <string name="notification_content">Deep Onion block service running using Tor</string>
+    <string name="notification_content">DeepOnion blockchain service running using Tor</string>
 </resources>

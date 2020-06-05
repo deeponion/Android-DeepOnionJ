@@ -30,6 +30,7 @@ android {
         }
     }
 
+    // Build Native X13 Algorithm
     externalNativeBuild {
         cmake {
             path 'src/main/cpp/CMakeLists.txt'
@@ -50,7 +51,7 @@ dependencies {
     implementation "com.android.support:support-compat:29.0.0"
 
     // DeepOnionJ Template additions.
-    implementation 'com.github.deeponion:deeponionj:-SNAPSHOT'
+    implementation 'com.github.deeponion:deeponionj:-SNAPSHOT' // TODO - Change to stable build
     implementation 'com.google.guava:guava:28.1-android'
     implementation 'org.torproject:tor-android-binary:0.4.1.5'
     implementation 'com.jrummyapps:android-shell:1.0.1'

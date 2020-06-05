@@ -1,4 +1,4 @@
-package org.deeponion.walletTemplate;
+package org.deeponion.core;
 
 import org.bitcoinj.core.Context;
 import org.bitcoinj.core.NetworkParameters;

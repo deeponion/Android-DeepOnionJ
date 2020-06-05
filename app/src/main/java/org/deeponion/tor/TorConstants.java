@@ -1,12 +1,12 @@
-package org.deeponion.walletTemplate;
+package org.deeponion.tor;
 
 /**
  * Copyright DeepOnion Developers 2020
  * Created by Nezero on 03/04/2020.
  */
-public interface WalletTemplateConstants {
+public interface TorConstants {
 
-    String TAG = "WalletTemplate";
+    String TAG = "DeepOnion";
 
     String PREF_OR = "pref_or";
     String PREF_OR_PORT = "pref_or_port";
@@ -16,7 +16,7 @@ public interface WalletTemplateConstants {
 
     String PREF_DISABLE_NETWORK = "pref_disable_network";
 
-    String PREF_TOR_SHARED_PREFS = "org.torproject.android_preferences";
+    String DIRECTORY_TOR_DATA = "data";
 
     String PREF_SOCKS = "pref_socks";
 
